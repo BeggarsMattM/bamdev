@@ -121,7 +121,7 @@
  *	`manager_index()` and `/manager/controller/index`
  *
  */
-	//Configure::write('Routing.prefixes', array('admin'));
+Configure::write('Routing.prefixes', array('y'));
 
 /**
  * Turn off all caching application-wide.
@@ -194,12 +194,12 @@
 /**
  * A random string used in security hashing methods.
  */
-	Configure::write('Security.salt', 'DYhG93b0qyJfIxfs2guVoUubWwvniR2G0FgaC9mi');
+	Configure::write('Security.salt', 'x>~R[Z9gU7pU9423487a0b4eb773ec1Cde9bf8cc4Xa3e2dfb4e`33d1955a7G35');
 
 /**
  * A random numeric string (digits only) used to encrypt/decrypt strings.
  */
-	Configure::write('Security.cipherSeed', '76859309657453542496749683645');
+	Configure::write('Security.cipherSeed', '92403256459251536331259557847817');
 
 /**
  * Apply timestamps with the last modified time to static assets (js, css, images).
